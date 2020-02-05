@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Mobile.DL.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace Mobile.DL.Enity
         public int MobilePrice { get; set; }
 
         public string Image { get; set; }
-        //public List<AccessoryItemss> AccessoryItems { get; set; }
+        
+        public List<AccessoryItems> AccessoryItems { get; set; }
     }
 }

@@ -38,6 +38,38 @@ namespace Mobile.DL.Migrations
 
                     b.ToTable("MobileItems");
                 });
+
+            modelBuilder.Entity("Mobile.DL.Entity.AccessoryItems", b =>
+                {
+                    b.Property<int>("AccessoryItemsId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("AccessoryName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("AccessoryPrice")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MobileItemsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("AccessoryItemsId");
+
+                    b.HasIndex("MobileItemsId");
+
+                    b.ToTable("AccessoryItems");
+                });
+
+            modelBuilder.Entity("Mobile.DL.Entity.AccessoryItems", b =>
+                {
+                    b.HasOne("Mobile.DL.Enity.MobileItems", null)
+                        .WithMany("AccessoryItems")
+                        .HasForeignKey("MobileItemsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
 #pragma warning restore 612, 618
         }
     }

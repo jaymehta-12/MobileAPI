@@ -14,6 +14,7 @@ namespace Mobile.DL.Entity
 
         }
         public DbSet<MobileItems> MobileItems { get; set; }
+        public DbSet<AccessoryItems> AccessoryItems { get; set; }
 
     }
 }

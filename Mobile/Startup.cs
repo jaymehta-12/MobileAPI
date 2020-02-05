@@ -39,7 +39,7 @@ namespace Mobile
         public void ConfigureServices(IServiceCollection services)
         {
            // services.AddTransient<Class>().AddTransient<IMobileAPI, Class>(a=>a.GetService<Class>());
-            services.AddTransient<IMobileAPI, Class1>();
+           
             services.AddTransient<IMobileAPI, Class>();
             services.AddTransient<IMobileBL, MobileRepoBL>();
             services.AddTransient<IMobileRepository, MobileRepository>();

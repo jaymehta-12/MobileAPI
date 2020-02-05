@@ -1,0 +1,10 @@
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\bin\Debug\netcoreapp3.1\Mobile.DL.deps.json
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\bin\Debug\netcoreapp3.1\Mobile.DL.dll
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\obj\Debug\netcoreapp3.1\Mobile.DL.csprojAssemblyReference.cache
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\obj\Debug\netcoreapp3.1\Mobile.DL.AssemblyInfoInputs.cache
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\obj\Debug\netcoreapp3.1\Mobile.DL.AssemblyInfo.cs
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\bin\Debug\netcoreapp3.1\Mobile.DL.pdb
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\obj\Debug\netcoreapp3.1\Mobile.DL.dll
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\obj\Debug\netcoreapp3.1\Mobile.DL.pdb
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\bin\Debug\netcoreapp3.1\Mobile.DL.runtimeconfig.json
+C:\Users\jmehta\source\repos\Mobile\Mobile.DL\bin\Debug\netcoreapp3.1\Mobile.DL.runtimeconfig.dev.json

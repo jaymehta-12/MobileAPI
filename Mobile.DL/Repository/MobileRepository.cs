@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Mobile.DL.Interface;
 using Mobile.DL.Entity;
 using Mobile.DL.Enity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Mobile.DL.Repository
 {
@@ -19,7 +20,7 @@ namespace Mobile.DL.Repository
 
         public IEnumerable<MobileItems> GetMobileDL()
         {
-            return _context.MobileItems.ToList();
+            return _context.MobileItems.Include(a=>a.AccessoryItems).ToList();
         }
     }
 }
