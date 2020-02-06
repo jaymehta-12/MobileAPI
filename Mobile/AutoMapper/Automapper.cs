@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Mobile.DL.Enity;
+using Mobile.DL.Entity;
 
 namespace Mobile.AutoMapper
 {
@@ -15,10 +16,10 @@ namespace Mobile.AutoMapper
 
         public Automapper()
         {
-            CreateMap<MobileAPI, MobileBL>();
-            CreateMap<MobileBL, MobileAPI>();
-            CreateMap<MobileBL, MobileItems>();
-            CreateMap<MobileItems, MobileBL>();
+            CreateMap<MobileAPI, MobileBL>().ReverseMap();
+            CreateMap<MobileBL, MobileItems>().ReverseMap();
+            CreateMap<AccessoryAPI, AccessoryBL>().ReverseMap();
+            CreateMap<AccessoryBL, AccessoryItems>().ReverseMap();
         }
     }
 }

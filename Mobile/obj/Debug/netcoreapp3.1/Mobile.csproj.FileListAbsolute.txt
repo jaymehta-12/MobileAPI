@@ -127,4 +127,5 @@ C:\Users\jmehta\source\repos\Mobile\Mobile\bin\Debug\netcoreapp3.1\AutoMapper.dl
 C:\Users\jmehta\source\repos\Mobile\Mobile\bin\Debug\netcoreapp3.1\Mobile.BL.dll
 C:\Users\jmehta\source\repos\Mobile\Mobile\bin\Debug\netcoreapp3.1\Mobile.BL.pdb
 C:\Users\jmehta\source\repos\Mobile\Mobile\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jmehta\source\repos\Mobile\Mobile\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Users\jmehta\source\repos\Mobile\Mobile\obj\Debug\netcoreapp3.1\Mobile.MvcApplicationPartsAssemblyInfo.cache

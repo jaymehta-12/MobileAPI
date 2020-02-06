@@ -12,5 +12,6 @@ namespace Mobile.BL.Model
 
         public int MobilePrice { get; set; }
         public string Image { get; set; }
+        public List<AccessoryBL> AccessoryItems { get; set; }
     }
 }

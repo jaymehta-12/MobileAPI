@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Mobile.BL.Model
 {
-    class AccessoryBL
+    public class AccessoryBL
     {
         public int AccessoryItemsId { get; set; }
         public string AccessoryName { get; set; }
@@ -12,6 +12,6 @@ namespace Mobile.BL.Model
         public int AccessoryPrice { get; set; }
 
         public int MobileItemsId { get; set; }
-        public List<AccessoryBL> AccessoryItems { get; set; }
+     
     }
 }
